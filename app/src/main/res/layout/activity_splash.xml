@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/terracota"
+    android:background="@color/purpura"
     tools:context=".SplashActivity">
 
     <TextView
@@ -12,25 +12,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fuente"
+        android:lineSpacingExtra="8sp"
         android:text="Mi Mensaje"
-        android:textColor="#FFFFFF"
+        android:textColor="#2B2040"
         android:textSize="30sp"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="215dp"
+        android:layout_height="169dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233"
-        app:srcCompat="@mipmap/ubicacion" />
+        app:layout_constraintVertical_bias="0.224"
+        app:srcCompat="@mipmap/mensaje" />
 
     <TextView
         android:id="@+id/textView5"
