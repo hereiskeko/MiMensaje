@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "759477095475",
+    "firebase_url": "https://basedatosmimensaje-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "basedatosmimensaje",
+    "storage_bucket": "basedatosmimensaje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759477095475:android:aee8a6fdf21ec7f5f62746",
+        "android_client_info": {
+          "package_name": "cl.stomas.mimensaje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu0ZwpiVTU95A6bTvInxHzqiXcJQujCpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
