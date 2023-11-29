@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -66,6 +68,8 @@ public class EnviarMensaje extends AppCompatActivity {
                 databaseReference.child("Mensaje").setValue(texto.getText().toString());
                 databaseReference.child("Nombre").setValue(nombre.getText().toString());
                 databaseReference.child("Apellido").setValue(apellido.getText().toString());
+                Toast.makeText(getApplicationContext(), "Mensaje enviado exitosamente", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Consulta tu servidor MQTT y la base de datos de Firebase", Toast.LENGTH_LONG).show();
             }
         });
     }
